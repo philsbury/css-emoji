@@ -1,5 +1,5 @@
 // http://unicode.org/emoji/charts/full-emoji-list.html
-
+// Emoji V3
 $emoji-prefix: emoji !default;
 $emojis: (
 	smiley: 						"\01F600",
@@ -98,7 +98,54 @@ $emojis: (
 	// see / speak / hear
 	monkey-see:					"\01f648",
 	monkey-hear:				"\01f649",
-	monkey-speak: 			"\01f64a"
+	monkey-speak: 			"\01f64a",
+
+	// people
+	boy:								"\01f466",
+	girl: 							"\01f467",
+	man:								"\01f468",
+	woman:							"\01f469",
+	old-man:						"\01f474",
+	old-woman: 					"\01f475",
+	baby: 							"\01f476",
+	baby-angel:					"\01f47c",
+	police-officer: 		"\01f46e",
+	detective: 					"\01f575",
+	guard:							"\01f482",
+	construction-worker:"\01f477",
+	turban:							"\01f473",
+	blond-haired:				"\01f471",
+	santa:							"\01f385",
+	princess:						"\01f478",
+	bride:							"\01f470",
+	chinese-cap:				"\01f472",
+	person-frowning:		"\01f64d",
+	person-pouting:			"\01f64e",
+	person-no:					"\01f645",
+	person-ok:					"\01f646",
+
+	tipping-hand:		 		"\01f481",
+	raising-hand: 			"\01f64b",
+	bowing:							"\01f647",
+	head-massage:				"\01f486",
+	hair-cut:						"\01f487",
+
+	walking:						"\01f6b6",
+	running:						"\01f3c3",
+	woman-dancing:			"\01f483",
+	bunny-ears:					"\01f46f",
+	suit-levitating:		"\01f574",
+
+	speaking-head:			"\01f5e3",
+	user:								"\01f464",
+	users:							"\01f465",
+
+	// activities
+	horse-racing:				"\01f3c7",
+	skier:							"\026f7",
+	snowboarder:				"\01f3c2"
+
+
 );
 
 .emoji {
