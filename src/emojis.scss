@@ -1,11 +1,52 @@
+// http://unicode.org/emoji/charts/full-emoji-list.html
+
 $emoji-prefix: emoji !default;
 $emojis: (
-	smiley: "\01F600",
-	blush: "\01f60a",
-	cry: "\01F622",
-	sob: "\01f62d",
-	think: "\01F914"
+	smiley: 					"\01F600",
+	blush: 						"\01f60a",
+	cry: 							"\01F622",
+	sob: 							"\01f62d",
+	think: 						"\01F914",
+	grimacing: 				"\01f601",
+	tears-of-joy: 		"\01f602",
+	smile-open: 			"\01f603",
+	laugh-open: 			"\01f604",
+	laugh-open-sweat: "\01f605",
+	laugh: 						"\01f606",
+	wink: 						"\01f609",
+	yum: 							"\01f60b",
+	cool:							"\01f60e",
+	love:							"\01f60d",
+	kiss:							"\01f618",
+	kiss-empty:				"\01f617",
+	kiss-empty-closed:"\01f61a",
+	smile: 						"\01f642",
+	hug: 							"\01f917",
+	neutral:					"\01f610",
+	expressionless:		"\01f611",
+	silent: 					"\01f636",
+	rolling:					"\01f644",
+	smirk:						"\01f60f",
+	persevere:				"\01f623",
+	relieved: 				"\01f625",
+	sympathy:					"\01f62e",
+	zipper:						"\01f910",
+	surprised:				"\01f62f",
+	sleepy:						"\01f62a",
+	tired:						"\01f62b",
+	sleeping: 				"\01f634",
+	contented:				"\01f60c",
+	geek: 						"\01f913",
+	tongue:						"\01f61b",
+	drool:						"\01f924",
+	joking:						"\01f61c",
+	yuck: 						"\01f61d",
+	rofl:							"\01f923"
 );
+
+.emoji {
+	font-style: normal;
+}
 
 
 @each $name, $code in $emojis {

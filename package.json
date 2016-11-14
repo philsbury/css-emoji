@@ -1,6 +1,6 @@
 {
   "name": "css-emoji",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A CSS emoji library written in SASS",
   "main": "index.js",
   "scripts": {
