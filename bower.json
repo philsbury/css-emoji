@@ -1,0 +1,22 @@
+{
+  "name": "css-emoji",
+  "description": "A CSS emoji library written in SASS",
+  "main": "emojis.min.css",
+  "authors": [
+    "Phil Baker"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Emoji",
+    "CSS",
+    "SASS"
+  ],
+  "homepage": "https://github.com/philsbury/css-emoji",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
