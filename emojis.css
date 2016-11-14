@@ -269,3 +269,12 @@
 
 .emoji-cat-angry:before {
   content: "😾"; }
+
+.emoji-monkey-see:before {
+  content: "🙈"; }
+
+.emoji-monkey-hear:before {
+  content: "🙉"; }
+
+.emoji-monkey-speak:before {
+  content: "🙊"; }
