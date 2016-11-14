@@ -37,6 +37,25 @@ module.exports = function(grunt) {
         }
       }
 
+    },
+    bump: {
+      options: {
+        files: ['package.json'],
+        updateConfigs: [],
+        commit: true,
+        commitMessage: 'Release v%VERSION%',
+        commitFiles: ['package.json'],
+        createTag: true,
+        tagName: 'v%VERSION%',
+        tagMessage: 'Version %VERSION%',
+        push: true,
+        pushTo: 'origin master',
+        gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
+        globalReplace: false,
+        prereleaseName: false,
+        metadata: '',
+        regExp: false
+      }
     }
   });
 
@@ -44,7 +63,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-banner');
-
+  grunt.loadNpmTasks('grunt-bump');
   // Default task(s).
   grunt.registerTask('default', ['sass', 'cssmin', 'usebanner']);
 

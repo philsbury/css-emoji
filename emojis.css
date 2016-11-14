@@ -1,6 +1,6 @@
 /*
  * css-emoji 2016-11-14 
- * Build 0.1.0
+ * Build 0.1.3
  */
 @charset "UTF-8";
 .emoji {
@@ -122,3 +122,33 @@
 
 .emoji-yuck:before {
   content: "😝"; }
+
+.emoji-rofl:before {
+  content: "🤣"; }
+
+.emoji-unamused:before {
+  content: "😒"; }
+
+.emoji-cold-sweat:before {
+  content: "😓"; }
+
+.emoji-dejected:before {
+  content: "😔"; }
+
+.emoji-confused:before {
+  content: "😕"; }
+
+.emoji-upside-down-smile:before {
+  content: "🙃"; }
+
+.emoji-money:before {
+  content: "🤑"; }
+
+.emoji-shocked:before {
+  content: "😲"; }
+
+.emoji-really-sad:before {
+  content: "☹"; }
+
+.emoji-sad:before {
+  content: "🙁"; }
