@@ -1,0 +1,16 @@
+$emoji-prefix: emoji !default;
+$emojis: (
+	smiley: "\01F600",
+	blush: "\01f60a",
+	cry: "\01F622",
+	sob: "\01f62d",
+	think: "\01F914"
+);
+
+
+@each $name, $code in $emojis {
+	.#{$emoji-prefix}-#{$name}:before {
+		content: $code;
+	}
+
+}

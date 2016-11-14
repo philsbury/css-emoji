@@ -1,0 +1,21 @@
+/*
+ * css-emoji 2016-11-14 
+ * Build 1.0.0
+ */
+@charset "UTF-8";
+.emoji-smiley:before {
+  content: "😀"; }
+
+.emoji-blush:before {
+  content: "😊"; }
+
+.emoji-cry:before {
+  content: "😢"; }
+
+.emoji-sob:before {
+  content: "😭"; }
+
+.emoji-think:before {
+  content: "🤔"; }
+
+/*# sourceMappingURL=emojis.css.map */
