@@ -1,5 +1,5 @@
 /*
- * css-emoji 2016-11-14 
+ * css-emoji 2016-11-15 
  * Build 0.1.3
  */
 @charset "UTF-8";
@@ -392,3 +392,33 @@
 
 .emoji-snowboarder:before {
   content: "🏂"; }
+
+.emoji-golfer:before {
+  content: "🏌"; }
+
+.emoji-surfer:before {
+  content: "🏄"; }
+
+.emoji-rowing-boat:before {
+  content: "🚣"; }
+
+.emoji-swimming:before {
+  content: "🏊"; }
+
+.emoji-bouncing-ball:before {
+  content: "⛹"; }
+
+.emoji-weightlifter:before {
+  content: "🏋"; }
+
+.emoji-biking:before {
+  content: "🚴"; }
+
+.emoji-mountain-biking:before {
+  content: "🚵"; }
+
+.emoji-racing-car:before {
+  content: "🏎"; }
+
+.emoji-motorcycle:before {
+  content: "🏍"; }
