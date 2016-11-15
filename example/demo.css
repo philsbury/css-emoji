@@ -1,0 +1,16 @@
+.wrapper {
+	max-width: 1020px;
+	margin: 0 auto;
+	display: table;
+}
+
+.emoji {
+	font-size: 3em;
+}
+
+.demo {
+	padding: 20px;
+}
+.demo:nth-child(even) {
+	background: #ccc;
+}
